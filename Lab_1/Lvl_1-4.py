@@ -2,25 +2,26 @@ import sys
 
 
 class Operation:
-    def addition(self, a, b):
-        sum = a + b
-        return sum
+    def addition(self, count):
+        s = int(count[1])
+        for i in range(2, len(count)):
+            s += int(count[i])
+        return s
 
-    def multiply(self, a, b):
-        mult = a * b
+    def multiply(self, count):
+        mult = int(count[1])
+        for i in range(2, len(count)):
+            mult *= int(count[i])
         return mult
 
 
 if __name__ == "__main__":
         try:
-            num_1 = int(sys.argv[1])
-            num_2 = int(sys.argv[2])
+            count = sys.argv
             obj = Operation()
-            s = obj.addition(num_1, num_2)
+            s = obj.addition(count)
+            m = obj.multiply(count)
             print("\nСумма чисел = ", s)
-            m = obj.multiply(num_1, num_2)
             print("\nПроизведение чисел = ", m)
         except ValueError:
             print("\nДолжны быть введены целые числа!\n")
-        except IndexError:
-            print("\nДолжны быть введены два аргумента!\n")
