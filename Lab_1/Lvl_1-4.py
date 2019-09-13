@@ -25,3 +25,4 @@ if __name__ == "__main__":
             print("\nПроизведение чисел = ", m)
         except ValueError:
             print("\nДолжны быть введены целые числа!\n")
+ 
