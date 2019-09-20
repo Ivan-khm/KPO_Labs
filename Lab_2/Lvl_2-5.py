@@ -36,3 +36,4 @@ if __name__ == "__main__":
                 print("\nВ тексте нет цифр!")
     except FileNotFoundError:
         print("\nФайл не выбран!")
+ 
