@@ -15,7 +15,9 @@ if __name__ == "__main__":
         file.close()  # Закрытие файла
         obj = Class()  # Создание объекта класса
         edit_file = obj.edit(read_file)   # Вызов метода изменения слов
-        print(edit_file)  # Вывод измененного текста
+        file_ed = open(open_file, 'w')  # Открытие файла для записи
+        file_ed.write(edit_file)  # Запись измененного текста в файл
+        file_ed.close()  # Закрытие файла
+        print("\nФайл изменен!")
     except FileNotFoundError:
         print("\nФайл не выбран!")
- 
