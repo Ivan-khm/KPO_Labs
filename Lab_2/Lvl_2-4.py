@@ -43,3 +43,4 @@ if __name__ == "__main__":
 
     except FileNotFoundError:
         print("\nФайл не выбран!")
+ 
