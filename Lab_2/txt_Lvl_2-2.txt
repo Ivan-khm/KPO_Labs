@@ -27,3 +27,4 @@ public class PackJar {
         }
         String[] temp = {};
         String[] filesToJar = listFilesToJar.toArray(temp);
+ 
