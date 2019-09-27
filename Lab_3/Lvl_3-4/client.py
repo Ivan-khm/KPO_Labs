@@ -2,7 +2,7 @@ import socket
 import sys
 
 sock = socket.socket()
-sock.connect(('localhost', 8888))
+sock.connect(('localhost', 34143))
 while True:
     mes = input("Введите сообщение: ")
     if mes == 'exit':
@@ -12,4 +12,3 @@ while True:
     else:
         sock.send(mes.encode())
         print(sock.recv(1024).decode())
- 
