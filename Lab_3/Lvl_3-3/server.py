@@ -21,3 +21,4 @@ while True:
         sonnet = rand_son()
         connect.send(sonnet.encode())
 connect.close()
+ 
