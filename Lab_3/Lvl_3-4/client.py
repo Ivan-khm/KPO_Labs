@@ -12,3 +12,4 @@ while True:
     else:
         sock.send(mes.encode())
         print(sock.recv(1024).decode())
+ 
