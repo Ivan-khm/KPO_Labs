@@ -6,7 +6,6 @@ def open_file():
     try:
         file = open('Shakespeare.txt', 'r')
         list_sonnets = file.read().split('+')
-        print(list_sonnets)
         file.close()
         return list_sonnets
     except:
@@ -20,7 +19,7 @@ def rand_son():
 
 
 sock = socket.socket()
-sock.bind(('', 8888))
+sock.bind(('', 34143))
 sock.listen(15)
 connect, addr = sock.accept()
 
@@ -34,4 +33,3 @@ while True:
         sonnet = rand_son()
         connect.send(sonnet.encode())
 connect.close()
- 
