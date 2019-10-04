@@ -60,3 +60,4 @@ class CreateTables:
 
         # Сохранение изменений
         connection.commit()
+ 
