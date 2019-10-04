@@ -34,3 +34,4 @@ if __name__ == "__main__":
         print(numb_q.fourth_query(curs))
 
     connect_db.close_db(connection)
+ 
