@@ -13,3 +13,4 @@ class ConnDB:
     # Функция закрытия соединения с БД
     def close_db(self, conn):
         conn.close()
+ 
