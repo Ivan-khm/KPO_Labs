@@ -27,3 +27,4 @@ class GetInf:
         sql = "SELECT day_name FROM days_week WHERE count_subj_per_day=?"
         curs.execute(sql, ["%s" % count])
         return curs.fetchall()
+ 
