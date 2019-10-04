@@ -30,3 +30,4 @@ class NumbQuery:
         obj_gi = GetInf()
         a = obj_gi.get_information_fourth_query(count, curs)
         return a
+ 
