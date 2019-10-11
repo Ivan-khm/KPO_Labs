@@ -35,3 +35,4 @@ for tarrif in tariff:
     print("Tarification: %s" % Tarification.childNodes[0].data)
     Connection_fee = tarrif.getElementsByTagName('Connection_fee')[0]
     print("Connection_fee: %s" % Connection_fee.childNodes[0].data)
+ 
