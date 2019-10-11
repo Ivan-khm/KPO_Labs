@@ -10,3 +10,4 @@ def validate(xml_path: str, xsd_path: str) -> bool:
     result = xmlschema.validate(xml_doc)
 
     return result
+ 
