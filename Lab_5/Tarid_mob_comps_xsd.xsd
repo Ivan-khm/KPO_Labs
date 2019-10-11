@@ -1,0 +1,36 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Tariff">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Name" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Operator_name"/>
+              <xs:element type="xs:short" name="Payroll"/>
+              <xs:element name="Call_prices">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:float" name="Inside"/>
+                    <xs:element type="xs:float" name="Outside"/>
+                    <xs:element type="xs:float" name="Stationary"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:float" name="SMS_price"/>
+              <xs:element name="Parameters">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:byte" name="Favourite_num"/>
+                    <xs:element type="xs:string" name="Tarification"/>
+                    <xs:element type="xs:float" name="Connection_fee"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="name" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

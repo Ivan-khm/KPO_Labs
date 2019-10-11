@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tariff>
+    <Name name="Smart">
+        <Operator_name>MTS</Operator_name>
+        <Payroll>400</Payroll>
+        <Call_prices>
+            <Inside>3.00</Inside>
+            <Outside>5.50</Outside>
+            <Stationary>5.50</Stationary>
+        </Call_prices>
+        <SMS_price>3.00</SMS_price>
+        <Parameters>
+            <Favourite_num>0</Favourite_num>
+            <Tarification>Per_min</Tarification>
+            <Connection_fee>0.00</Connection_fee>
+        </Parameters>
+    </Name>
+    <Name name="X">
+        <Operator_name>MTS</Operator_name>
+        <Payroll>500</Payroll>
+        <Call_prices>
+            <Inside>0.00</Inside>
+            <Outside>5.50</Outside>
+            <Stationary>5.50</Stationary>
+        </Call_prices>
+        <SMS_price>3.80</SMS_price>
+        <Parameters>
+            <Favourite_num>0</Favourite_num>
+            <Tarification>Per_min</Tarification>
+            <Connection_fee>0.00</Connection_fee>
+        </Parameters>
+    </Name>
+    <Name name="My_online">
+        <Operator_name>Tele2</Operator_name>
+        <Payroll>200</Payroll>
+        <Call_prices>
+            <Inside>0.00</Inside>
+            <Outside>1.95</Outside>
+            <Stationary>1.95</Stationary>
+        </Call_prices>
+        <SMS_price>1.95</SMS_price>
+        <Parameters>
+            <Favourite_num>0</Favourite_num>
+            <Tarification>Per_min</Tarification>
+            <Connection_fee>0.00</Connection_fee>
+        </Parameters>
+    </Name>
+    <Name name="My_online+">
+        <Operator_name>Tele2</Operator_name>
+        <Payroll>300</Payroll>
+        <Call_prices>
+            <Inside>0.00</Inside>
+            <Outside>1.95</Outside>
+            <Stationary>1.95</Stationary>
+        </Call_prices>
+        <SMS_price>1.95</SMS_price>
+        <Parameters>
+            <Favourite_num>0</Favourite_num>
+            <Tarification>Per_min</Tarification>
+            <Connection_fee>0.00</Connection_fee>
+        </Parameters>
+    </Name>
+    <Name name="Unlim">
+        <Operator_name>Beeline</Operator_name>
+        <Payroll>240</Payroll>
+        <Call_prices>
+            <Inside>0.25</Inside>
+            <Outside>2.5</Outside>
+            <Stationary>2.5</Stationary>
+        </Call_prices>
+        <SMS_price>2.5</SMS_price>
+        <Parameters>
+            <Favourite_num>0</Favourite_num>
+            <Tarification>Daily</Tarification>
+            <Connection_fee>0.00</Connection_fee>
+        </Parameters>
+    </Name>
+    <Name name="Double_unlim">
+        <Operator_name>Beeline</Operator_name>
+        <Payroll>660</Payroll>
+        <Call_prices>
+            <Inside>0.25</Inside>
+            <Outside>2.5</Outside>
+            <Stationary>2.5</Stationary>
+        </Call_prices>
+        <SMS_price>2.5</SMS_price>
+        <Parameters>
+            <Favourite_num>0</Favourite_num>
+            <Tarification>Daily</Tarification>
+            <Connection_fee>0.00</Connection_fee>
+        </Parameters>
+    </Name>
+</Tariff>
