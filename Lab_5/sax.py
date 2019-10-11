@@ -87,3 +87,4 @@ if __name__ == "__main__":
     parser.setContentHandler(Handler)
 
     parser.parse("Tarif_mob_comps")
+ 
