@@ -33,3 +33,4 @@ class Subject(object):
     # Вывод в консоль полученных данных
     def toStringSubject(self):
         print("[name_sub = " + self.name_sub + ", Day = " + self.Day + ", Audience = " + self.Audience + "]")
+ 
