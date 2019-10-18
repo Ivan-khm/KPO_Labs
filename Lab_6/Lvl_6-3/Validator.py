@@ -18,3 +18,4 @@ class Validator:
         # Возврат True (валидация прошла успешно)
         # Возврат False (ошибка валидации)
         return result
+ 
