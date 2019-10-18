@@ -24,3 +24,4 @@ class Timetable(object):
     # Вывод в консоль полученных данных
     def toStringTimetable(self):
         print("[Teacher = " + self.Teacher + ", Subject = " + self.Subject + "]")
+ 
