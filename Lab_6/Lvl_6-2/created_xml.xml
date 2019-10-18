@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<Timetable>
+  <Subject name_sub="KPO">
+    <Day>Saturday</Day>
+    <Audience>D-505</Audience>
+  </Subject>
+  <Teacher full_name="Kurganskaya O.V.">
+    <Sub_teach>KPO</Sub_teach>
+    <Count_sub_per_week>2</Count_sub_per_week>
+    <Count_students>18</Count_students>
+  </Teacher>
+</Timetable>

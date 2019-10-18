@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Timetable>
+    <Subject name_sub="KPO">
+        <Day>Saturday</Day>
+        <Audience>D-505</Audience>
+    </Subject>
+    <Subject name_sub="TPR">
+        <Day>Friday</Day>
+        <Day>Wednesday</Day>
+        <Audience>D-514</Audience>
+    </Subject>
+    <Subject name_sub="NPO">
+        <Day>Thursday</Day>
+        <Day>Tuesday</Day>
+        <Audience>A-511</Audience>
+    </Subject>
+    <Subject name_sub="AVS">
+        <Day>Monday</Day>
+        <Day>Thursday</Day>
+        <Audience>D-514</Audience>
+        <Audience>D-614</Audience>
+    </Subject>
+    <Subject name_sub="RZPS">
+        <Day>Monday</Day>
+        <Day>Friday</Day>
+        <Audience>D-514</Audience>
+        <Audience>A-211</Audience>
+    </Subject>
+    <Subject name_sub="OUD">
+        <Day>Wednesday</Day>
+        <Day>Thursday</Day>
+        <Audience>D-618</Audience>
+        <Audience>D-417</Audience>
+    </Subject>
+    <Teacher full_name="Kashkovskii V.V.">
+        <Sub_teach>AVS</Sub_teach>
+        <Count_sub_per_week>2</Count_sub_per_week>
+        <Count_students>18</Count_students>
+     </Teacher>
+    <Teacher full_name="Kirillova T.K.">
+        <Sub_teach>OUD</Sub_teach>
+        <Count_sub_per_week>2</Count_sub_per_week>
+        <Count_students>14</Count_students>
+     </Teacher>
+    <Teacher full_name="Krakovskii Y.M.">
+        <Sub_teach>RZPS</Sub_teach>
+        <Count_sub_per_week>2</Count_sub_per_week>
+        <Count_students>18</Count_students>
+     </Teacher>
+    <Teacher full_name="Ermakov A.A">
+        <Sub_teach>NPO</Sub_teach>
+        <Sub_teach>TPR</Sub_teach>
+        <Count_sub_per_week>2</Count_sub_per_week>
+        <Count_sub_per_week>2</Count_sub_per_week>
+        <Count_students>17</Count_students>
+     </Teacher>
+    <Teacher full_name="Kurganskaya O.V.">
+        <Sub_teach>KPO</Sub_teach>
+        <Count_sub_per_week>2</Count_sub_per_week>
+        <Count_students>16</Count_students>
+     </Teacher>
+</Timetable>

@@ -1,0 +1,27 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Timetable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Subject" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Day" maxOccurs="unbounded" minOccurs="0"/>
+              <xs:element type="xs:string" name="Audience" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="name_sub" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Teacher" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Sub_teach" maxOccurs="unbounded" minOccurs="0"/>
+              <xs:element type="xs:byte" name="Count_sub_per_week" maxOccurs="unbounded" minOccurs="0"/>
+              <xs:element type="xs:byte" name="Count_students"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="full_name" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
