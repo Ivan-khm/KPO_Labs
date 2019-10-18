@@ -96,3 +96,4 @@ if __name__ == '__main__':
     Te.toStringTeacher()
     # Вывод в консоль знака '*' 100 раз
     print("*" * 100)
+ 
