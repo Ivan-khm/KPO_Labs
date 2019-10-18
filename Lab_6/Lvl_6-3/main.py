@@ -30,3 +30,4 @@ if __name__ == "__main__":
     um = UnMarshal()
     # Вызов функции 'unmarshal' класса 'UnMarshal'
     um.unmarshal('created_xml.xml')
+ 
