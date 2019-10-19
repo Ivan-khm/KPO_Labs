@@ -16,5 +16,5 @@ class MainPojo(object):
 
     # Вывод в консоль полученных данных
     def toStringMainPojo(self):
-        print("[Timetable = " + self.Timetable + "]")
+        print("Class pojo [Timetable = " + self.Timetable + "]")
  
