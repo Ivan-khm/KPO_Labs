@@ -49,6 +49,6 @@ class Teacher(object):
 
     # Вывод в консоль полученных данных
     def toStringTeacher(self):
-        print("[full_name = " + self.full_name,  ", Sub_teach = " + self.Sub_teach + ", "
+        print("Class pojo [full_name = " + self.full_name,  ", Sub_teach = " + self.Sub_teach + ", "
               "Count_sub_per_week = " + self.Count_sub_per_week + ", Count_students = " + self.Count_students + " ]")
  
