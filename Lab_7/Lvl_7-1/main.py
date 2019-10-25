@@ -125,3 +125,4 @@ elif e2.is_set():
         elif e4.is_set():
             # инициализация и запуск 5 потока(поезда) во 2 туннель
             t5 = threading.Thread(target=second_tunnel, args=("пятый поезд", e5))
+ 
