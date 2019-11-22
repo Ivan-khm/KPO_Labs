@@ -51,3 +51,4 @@ subject = Subject()
 subject.attach(Observer('Подписчик 1'))
 subject.attach(Observer('Подписчик 2'))
 subject.set_data(['Журнал', 'Газета'])
+ 
