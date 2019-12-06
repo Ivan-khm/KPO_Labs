@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<definitions name="Name">
+  <Types>
+    <schema targetNamespace="Target_name"/>
+  </Types>
+  <Message name="1">
+    <part element="body_element" name="body"/>
+  </Message>
+  <portType name="port_name">
+    <operation name="operation_name">
+      <input message="input_message"/>
+      <output message="output_message"/>
+    </operation>
+  </portType>
+  <binding name="binding_name" type="binding_type">
+    <soap:binding style="document"/>
+    <operation name="operation_name"/>
+  </binding>
+</definitions>

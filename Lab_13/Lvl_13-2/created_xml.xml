@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<soap:Envelope xmlns:soap="http://example.schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <productID>12345</productID>
+    <Year>2019</Year>
+    <Month>July</Month>
+  </soap:Body>
+</soap:Envelope>
